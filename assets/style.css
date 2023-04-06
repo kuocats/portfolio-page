@@ -43,6 +43,7 @@ aside {
     flex: 100%;
     font-size: 20pt;
     padding-left: 40px;
+    padding-right: 30px;
     background-color: lightslategray;
 }
 
@@ -55,14 +56,40 @@ aside {
 .About-Me{
     text-align: right;
     padding: 50px;
+    border-right: solid 3pt
 }
 
 .Work{
     text-align: right;
     padding: 50px;
+    border-right: solid 3pt;
 }
 
 .Contact-Info {
     text-align: right;
     padding: 50px;
+    border-right: solid 3pt;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.main-card{
+    text-align: center;
+}
+
+.small-card{
+    display: flex;
+}
+
+.base-card{
+    display: flex;
 }
